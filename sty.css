@@ -16,9 +16,8 @@ body{
     overflow: hidden;
     padding-left: 35rem;
 }
-body, html, header{
-  height: 100%;
-  position: relative;
+body, html{
+  
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 
   background-size: 400% 400%;
@@ -51,13 +50,7 @@ body, html, header{
   }
 
 }
-.scrolling {
-  animation-duration: 0.5s;
-  animation-name: changewidth;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
- animation-fill-mode: forwards;
-}
+
 
 
 .heading{
